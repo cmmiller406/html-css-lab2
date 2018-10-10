@@ -1,0 +1,151 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+a {
+    color: #69696a;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-bottom: 7px;
+}
+
+.hire {
+    background-color:#000;
+    color: #f9fafc;
+    text-align: center;
+    border-radius: 30px;
+    width: 95%;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h1 {
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+p {
+    margin-left: 20px;
+    border-left: 3px solid #69696a;
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+.main-container {
+    padding-bottom: 50px;
+}
+
+button {
+    background-color:#000;
+    color: #f9fafc;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 90%;
+    width: 90%;
+}
+
+@media only screen and (min-width: 675px) {
+    header, nav {
+        flex-direction: row;
+    }
+
+    header {
+        justify-content: space-between;
+      }
+
+    a {
+        padding-right: 10px;
+        padding-left: 10px;
+        text-align: center;
+    }
+  
+    nav {
+          align-items: center;
+          width: 500px;
+      }
+
+    a.hire {
+        width: 100px;
+      }
+
+    .main-container {
+        width: 100%;
+        margin-top: 80px;
+    }
+    
+    .left {
+        float: left;
+        width: 48%;
+        height: 800px;
+    }
+    
+    .right {
+        float: right;
+        width: 48%;
+        height: 800px;
+    }
+    
+    .clearfix {
+        clear: both;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+
+    .pink {
+        background-color: rgba(247, 136, 167, 0.6);
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        position: relative;
+        bottom: 250px;
+        left: 260px;
+    }
+    
+    .purple {
+        background-color: rgba(207, 130, 213, 0.6);
+        position: relative;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        left: 470px;
+        bottom: 80px;
+    }
+    
+    .orange {
+        background-color: rgba(247, 193, 162, 0.7);
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        position: relative;
+        top: 220px;
+        left: 430px;
+    }
+
+    button {
+        width: 150px;
+        font-size: 18px;
+    }
+    
+}
